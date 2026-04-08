@@ -1,13 +1,24 @@
+body{
+
+    background-image: url(assets/wallpaper.webp);
+
+}
+
 header{
 
 font-size: xx-large;
 
+}
+
+main{
+
+background-color: beige;
+
 
 }
 
-#forms{
 
-padding: 15px;
+#forms{
 
 }
 

@@ -15,6 +15,7 @@ document.getElementById("forms").addEventListener("submit", function (e) {
 
     if (nome.length < 3) return alert("Nome curto demais")
     if (idade < 17) return alert("Idade inválida")
-        
+
+        document.getElementById("resultado").innerHTML = "Cadastro realizado com sucesso!<br>" + "Nome" + nome;
 
 });
